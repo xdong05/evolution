@@ -1,7 +1,6 @@
 function u = my_laplacian(M,n,dx) %input: matrix;model domain; resolution
     
     i = 2:n-1; % interior rows
-    % j = 2:n-1; % interior columns
  
     u = zeros(n,1);
     
